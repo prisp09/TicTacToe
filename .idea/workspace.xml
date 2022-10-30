@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cd8ce39-1b13-4c3a-b8ea-9695fb7025ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -31,6 +32,7 @@
   </component>
   <component name="ProjectId" id="2GqIE1XxnB8mdHoBHdl2vgCR1JI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -72,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667109576821</updated>
-      <workItem from="1667109581844" duration="6012000" />
+      <workItem from="1667109581844" duration="14785000" />
     </task>
     <servers />
   </component>

@@ -11,10 +11,6 @@ public class Piece {
         return this.isCross;
     }
 
-    public void setIsCross(Boolean isCross){
-        this.isCross = isCross;
-    }
-
     @Override
     public String toString() {
         if(isCross){
