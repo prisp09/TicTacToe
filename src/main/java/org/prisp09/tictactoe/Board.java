@@ -114,7 +114,8 @@ public class Board {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-
+        stringBuilder.append("Slot Map:\n[ 0 | 1 | 2 ]\n[ 3 | 4 | 5 ]\n[ 6 | 7 | 8 ]\n\n");
+        stringBuilder.append("Current Board:\n");
         for(int i = 0; i < 9; i+=3){
             stringBuilder.append("[");
             stringBuilder.append(" " + (this.grid.get(i)==null ? " ":this.grid.get(i)) + " |");
@@ -124,4 +125,5 @@ public class Board {
         }
         return stringBuilder.toString();
     }
+
 }

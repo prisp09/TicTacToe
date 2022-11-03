@@ -17,20 +17,11 @@ public abstract class Player {
         this.piece = piece;
     }
 
-    public String getName(){
-        return this.name;
+    public String getName(int i){
+        return this.name.equals("") ? ("Player " + i) : this.name;
     }
 
-    public void setName(String name){
-        this.name = name;
-    }
-
-    public Boolean isFirst(){
-        return this.piece.isCross();
-    }
-
-    @Override
-    public String toString() {
-        return this.getName();
+    public String toString(int i) {
+        return this.getPiece().isCross() ? (getName(i) + " with X"):(getName(i) + " with O");
     }
 }
