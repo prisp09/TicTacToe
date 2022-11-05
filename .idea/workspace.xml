@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f210728f-2a78-419c-9b8d-628793fd13a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prisp09/tictactoe/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <updated>1667458916156</updated>
       <workItem from="1667458921555" duration="796000" />
       <workItem from="1667459757778" duration="1523000" />
-      <workItem from="1667628976652" duration="2905000" />
+      <workItem from="1667628976652" duration="3717000" />
     </task>
     <servers />
   </component>
