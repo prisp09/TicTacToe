@@ -6,7 +6,7 @@
 
     <groupId>org.prisp09</groupId>
     <artifactId>TicTacToe</artifactId>
-    <version>0.5</version>
+    <version>0.9</version>
     <packaging>jar</packaging>
 
     <properties>

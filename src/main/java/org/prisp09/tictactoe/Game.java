@@ -62,19 +62,17 @@ public class Game {
     public GameStatus checkStatus(){
         if(this.board.checkWin()==1){
             this.setStatus(GameStatus.X_WINS);
-        } else if (this.board.checkWin()==2) {
+        }
+        else if (this.board.checkWin()==2) {
             this.setStatus(GameStatus.O_WINS);
         }
-        else {
-            if(this.board.isFull()){
+        else if(this.board.isFull()){
                 this.setStatus(GameStatus.DRAW);
-            }
         }
         return this.getStatus();
     }
 
-    public String run(){
-        Scanner input = new Scanner(System.in);
+    public String run(Scanner input){
         while(this.getStatus()==GameStatus.NEW||this.getStatus()==GameStatus.ACTIVE){
             System.out.println(this.board);
             System.out.println(this.getPlayer1().toString(1) + " make a move: ");
@@ -121,11 +119,9 @@ public class Game {
             }
             this.checkStatus();
             if(this.getStatus()==GameStatus.O_WINS || this.getStatus()==GameStatus.X_WINS){
-                input.close();
                 return this.getPlayer1().toString(1) + " wins the game!";
             }
             if(this.getStatus()==GameStatus.DRAW){
-                input.close();
                 return "The game resulted in a draw!";
             }
 
@@ -177,16 +173,14 @@ public class Game {
             }
             this.checkStatus();
             if(this.getStatus()==GameStatus.O_WINS || this.getStatus()==GameStatus.X_WINS){
-                input.close();
                 return this.getPlayer2().toString(2) + " wins the game!";
             }
             if(this.getStatus()==GameStatus.DRAW){
-                input.close();
+
                 return "The game resulted in a draw!";
             }
 
         }
-        input.close();
         return "";
     }
 
